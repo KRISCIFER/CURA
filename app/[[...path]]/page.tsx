@@ -1,0 +1,3 @@
+import Cura from '../../components/Cura';
+export function generateStaticParams() { return [[],['search'],['search','paracetamol'],['search','ors'],['search','amoxicillin'],['search','cetirizine'],['search','metformin'],['pharmacy','apollo'],['pharmacy','healthpoint'],['pharmacy','medplus'],['pharmacy','wellness'],['reservation','new'],['reservation','pickup'],['reservations'],['pulse'],['radar'],['shortage','east-delhi'],['pharmacy-mode'],['pharmacy-mode','inventory'],['pharmacy-mode','analytics'],['pharmacy-mode','reservations'],['pharmacy-mode','wastewatch'],['alerts'],['profile'],['demo']].map(path=>({path})); }
+export default function Page() { return <Cura/>; }
